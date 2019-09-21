@@ -1,0 +1,136 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: black;
+}
+img{
+	max-width: 100%;
+}
+.nofloat{
+	float: none;
+}
+.upspace{
+	margin-top: 100px;
+}
+
+.grande{
+	font-size: 5em; 
+}
+.rosa{
+	color: #ff00ff;
+}
+.verde{
+	color: #5dc1b9;
+}
+.rightspace{
+margin-right: 1em;	
+}
+.unlist li{
+	list-style-type: none;
+}
+.unlist{
+	margin: 0px;
+	padding: 0px;
+}
+.bewhite{
+	background-color: white
+}
+.longpadding{
+	padding: 5px 10px;
+}
+.inlineblock{
+	float: none;
+	display: inline-block;
+	margin-right: -4px
+}
+a,.verdes{
+	color: #5dc1b9;
+}
+.bahiana{
+	font-family: "Bahiana", cursive;
+}
+.upalign{
+	vertical-align: top;
+}
+.mediano{
+	font-size: 2em;
+}
+@font-face {
+    font-family: 'Infected';
+    font-style: normal;
+    font-weight: 400;
+    src: local('infected'),
+         url(fonts/infected.ttf) format('truetype');
+}
+.infected{
+	font-family: "infected", "bahiana";
+}
+@font-face {
+    font-family: 'Orange juice';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Orange juice'),
+         url(fonts/orajuice.ttf) format('truetype');
+}
+.orajuice{
+	font-family: "Orange juice", "bahiana";
+}
+.retmeds{
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.ret2s{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.ret1s{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+/*pulso*/
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+/*pulso*/
+.pulseinf {
+  animation: pulse 2s infinite;
+}
+.pulseinfr {
+  animation: pulse 1s infinite;
+}
